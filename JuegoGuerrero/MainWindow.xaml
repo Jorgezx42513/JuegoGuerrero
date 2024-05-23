@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
 
         <Grid Grid.Column="0">
-            <Image Source="/markIII.jpg" Height="400" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Image Source="/markIII.jpg" Height="400" VerticalAlignment="Center" HorizontalAlignment="Center" />
         </Grid>
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
@@ -42,13 +42,13 @@
                 <Grid Grid.Column="0" Margin="10,10,10,10">
                     <Grid Background="#131a22">
                         <Border BorderBrush="#ac2713" BorderThickness="2"/>
-                        <TextBox Padding="10" HorizontalAlignment="Center" Text="Console Init" TextWrapping="Wrap" Foreground="White"  VerticalAlignment="Center" Width="210" Height="185" Background="Black" FontFamily="Orange kid" FontSize="20"/>
+                        <TextBox x:Name="consola" Padding="10" HorizontalAlignment="Center" Text="Console Init" TextWrapping="Wrap" Foreground="White"  VerticalAlignment="Center" Width="210" Height="185" Background="Black" FontFamily="Orange kid" FontSize="20"/>
 
                     </Grid>
                 </Grid>
                 <Grid Grid.Column="1">
-                    <Button x:Name="btnIniciar" Content="Iniciar Mision" VerticalAlignment="Center" HorizontalAlignment="Center" Height="42" Width="158"/>
-                    <Button x:Name="btnSalir" Content="Salir" VerticalAlignment="Center" HorizontalAlignment="Center" Height="42" Width="158" Margin="0,100,0,0"/>
+                    <Button x:Name="btnIniciar" Content="Iniciar Mision" VerticalAlignment="Center" HorizontalAlignment="Center" Height="42" Width="158" Click="btnIniciar_Click" Background="#FFBA010F" Foreground="White"/>
+                    <Button x:Name="btnSalir" Content="Salir" VerticalAlignment="Center" HorizontalAlignment="Center" Height="42" Width="158" Margin="0,100,0,0" Background="#FFBA010F" Foreground="White" Click="btnSalir_Click"/>
 
                 </Grid>
             </Grid>

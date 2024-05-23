@@ -18,3 +18,4 @@ C:\Users\jorge\source\repos\JuegoGuerrero\JuegoGuerrero\obj\Debug\net8.0-windows
 C:\Users\jorge\source\repos\JuegoGuerrero\JuegoGuerrero\obj\Debug\net8.0-windows\JuegoGuerrero.pdb
 C:\Users\jorge\source\repos\JuegoGuerrero\JuegoGuerrero\obj\Debug\net8.0-windows\JuegoGuerrero.genruntimeconfig.cache
 C:\Users\jorge\source\repos\JuegoGuerrero\JuegoGuerrero\obj\Debug\net8.0-windows\ref\JuegoGuerrero.dll
+C:\Users\jorge\source\repos\JuegoGuerrero\JuegoGuerrero\obj\Debug\net8.0-windows\JuegoGuerrero.sourcelink.json
